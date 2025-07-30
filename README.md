@@ -30,14 +30,19 @@ This project was inspired by and builds upon the following repositories:
 
 1. Clone this repository:
    ```bash
-   git clone [YOUR_REPOSITORY_URL]
-   cd [REPOSITORY_NAME]
+   git clone https://github.com/cBarredez/-tennis-court-detector-and-player.git
+   cd tennis-court-detector-and-player
    ```
 
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
+
+3. Download the pre-trained weights from [Google Drive](https://drive.google.com/drive/u/0/folders/1rKZ3enwbEEkmUnevNYLWZqOpQsGIlK6B) and place them in the `Weights/` directory:
+   - `bestv3.pt` - YOLOv8 model for player detection
+   - `keypoints_model_v2.pth` - ResNet101 model for keypoint detection
+   - `yolo11x-pose.pt` - YOLO pose estimation model
 
 ## Usage
 
