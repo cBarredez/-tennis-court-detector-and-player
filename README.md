@@ -51,11 +51,19 @@ Replace `input_video.mp4` with your video file and `output_video.mp4` with your 
 
 ## Project Structure
 
-- `Tennis.ipynb`: Jupyter notebook with the main analysis code
+- `Tennis.ipynb`: Jupyter notebook with the main analysis code (Spanish)
+- `Tennis_EN.py`: Python script with the complete implementation in English
 - `tennis.py`: Main Python script for video processing
 - `sort.py`: SORT (Simple Online and Realtime Tracking) implementation
 - `requirements.txt`: List of Python dependencies
 - `Weights/`: Directory containing pre-trained model weights
+- `images/`: Directory containing demo and result images/GIFs
+
+## Demo
+
+![Tennis Court Detection Demo](images/ezgif-71e4ee9f3e4d1b.gif)
+
+*Example of the tennis court detection and player tracking in action.*
 
 ## License
 
