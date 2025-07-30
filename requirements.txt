@@ -1,0 +1,24 @@
+# Librerías estándar de Python (no necesitan incluirse en requirements.txt)
+# os
+# sys
+# time
+# collections
+# math
+
+# Librerías de procesamiento de video e imágenes
+opencv-python
+numpy
+moviepy
+
+# Librerías de PyTorch y torchvision
+torch
+torchvision
+
+# Librerías de YOLO y ultralytics
+ultralytics
+
+# Librerías de SORT para seguimiento de objetos
+sort
+
+# Librerías de TensorFlow (si es que se utiliza)
+tensorflow
